@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Vue.js Basics</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <style type="text/css">
+    	.canvas {
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+    	}
+    </style>
+  </head>
+  <body>
+
+    <h1>Vue Basics</h1>
+    <div id="app"> 
+    	<p v-if="show">I am here..</p>
+    	<button @click="showOnOff">Show On/Off</button>
+    	<!-- <h1>Hi {{ title }}</h1>
+    	<a :href="url">Google</a> -->
+    	<!-- <p>{{ greet() }}</p> -->
+    	<!-- <button :click='clickMe'>Click me</button> -->
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
